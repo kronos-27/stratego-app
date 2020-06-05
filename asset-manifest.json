@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/statego-app/static/css/main.d3ae0000.chunk.css",
-    "main.js": "/statego-app/static/js/main.0e6ea702.chunk.js",
-    "main.js.map": "/statego-app/static/js/main.0e6ea702.chunk.js.map",
+    "main.js": "/statego-app/static/js/main.5fd0f149.chunk.js",
+    "main.js.map": "/statego-app/static/js/main.5fd0f149.chunk.js.map",
     "runtime-main.js": "/statego-app/static/js/runtime-main.af71bc4a.js",
     "runtime-main.js.map": "/statego-app/static/js/runtime-main.af71bc4a.js.map",
     "static/js/2.ac8bcbef.chunk.js": "/statego-app/static/js/2.ac8bcbef.chunk.js",
     "static/js/2.ac8bcbef.chunk.js.map": "/statego-app/static/js/2.ac8bcbef.chunk.js.map",
     "index.html": "/statego-app/index.html",
-    "precache-manifest.fd5adfe5993e8e96e17d7504c8be3040.js": "/statego-app/precache-manifest.fd5adfe5993e8e96e17d7504c8be3040.js",
+    "precache-manifest.ca5fb598c0e7624b3254340e56b5e3a3.js": "/statego-app/precache-manifest.ca5fb598c0e7624b3254340e56b5e3a3.js",
     "service-worker.js": "/statego-app/service-worker.js",
     "static/css/main.d3ae0000.chunk.css.map": "/statego-app/static/css/main.d3ae0000.chunk.css.map",
     "static/js/2.ac8bcbef.chunk.js.LICENSE.txt": "/statego-app/static/js/2.ac8bcbef.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.af71bc4a.js",
     "static/js/2.ac8bcbef.chunk.js",
     "static/css/main.d3ae0000.chunk.css",
-    "static/js/main.0e6ea702.chunk.js"
+    "static/js/main.5fd0f149.chunk.js"
   ]
 }
