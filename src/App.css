@@ -1,0 +1,330 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Staatliches&display=swap");
+
+/*BACKGROUND*/
+
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/*BUTTONS*/
+
+.baseBtn {
+  margin: 10px 40px;
+  background-color: transparent;
+  padding: 16px;
+  width: 400px;
+  color: whitesmoke;
+  border: 4px whitesmoke;
+  font-family: "Staatliches", cursive;
+  font-size: 3em;
+  box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tbtn {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.container {
+  text-align: center;
+  width: 100%;
+}
+
+.flex-container {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.flex-container2 {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.Reminder {
+  margin-top: 60px;
+}
+
+.Tables {
+  margin-top: 120px;
+}
+
+.container2 {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.title {
+  position: relative;
+  text-align: center;
+}
+
+.logo {
+  z-index: -50;
+  font-size: 10em;
+  color: white;
+  text-shadow: 6px 6px rgba(0, 0, 0, 0.2);
+  letter-spacing: 8px;
+  word-spacing: 200px;
+  width: 80%;
+  font-family: "Staatliches", cursive;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fff;
+  opacity: 0.5; /* Firefox */
+}
+
+.Cell {
+  background: transparent;
+  border: 1px solid whitesmoke;
+  float: left;
+  font-size: 32px;
+  line-height: 34px;
+  height: 48px;
+  margin: 2px;
+  padding: 0;
+  text-align: center;
+  width: 48px;
+  border-radius: 25%;
+  font-family: "Staatliches", cursive;
+}
+
+.Cell:focus {
+  outline: none;
+}
+
+.kbd-navigation .Cell:focus {
+  background: #ddd;
+}
+
+.Cell2 {
+  background: transparent;
+  border: 1px solid whitesmoke;
+  float: left;
+  font-size: 50px;
+  line-height: 34px;
+  height: 70px;
+  margin: 2px;
+  padding: 0;
+  text-align: center;
+  width: 70px;
+  border-radius: 25%;
+  font-family: "Staatliches", cursive;
+}
+
+.Cell2:focus {
+  outline: none;
+}
+
+.kbd-navigation .Cell2:focus {
+  background: #ddd;
+}
+
+.player1 {
+  background: linear-gradient(-45deg, #00a6fb, #0582ca, #0582ca);
+  animation: gradient 10s ease infinite;
+  border: 3px solid #00a6fb;
+}
+
+.player2 {
+  background: linear-gradient(-45deg, #ce3b0e, #e62d0d, #eb0b0b);
+  animation: gradient 10s ease infinite;
+  border: 3px solid #ce3b0e;
+}
+
+.Selected {
+  color: #00a896;
+}
+
+.Valid {
+  border-radius: 20%;
+  background: linear-gradient(-45deg, #028090, #00a896, #02c39a);
+  animation: gradient 10s ease infinite;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+  perspective: 600px;
+}
+
+.game-board {
+  border: 1px solid whitesmoke;
+  border-radius: 3%;
+  padding: 10px;
+  margin: auto;
+  transform: scale3d(2, 1.4, 2) rotate3d(1, 0, 0, 30deg);
+  -webkit-transform: scale3d(2, 1.4, 2) rotate3d(1, 0, 0, 30deg);
+  box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img {
+  margin-top: 40px;
+  border: 8px whitesmoke solid;
+  border-radius: 50%;
+  height: 11em;
+  box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.rules {
+  margin: 20px 60px;
+  text-align: justify;
+  color: whitesmoke;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  color: whitesmoke;
+  font-family: "Staatliches", cursive;
+  font-size: 4em;
+  margin: 10px;
+  text-shadow: 6px 6px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  color: whitesmoke;
+  font-family: "Staatliches", cursive;
+  font-size: 3em;
+  padding-left: 30px;
+  margin: 10px;
+  text-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.lobbyId {
+  font-size: 6em;
+  margin-top: 5px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  letter-spacing: 20px;
+}
+
+h3 {
+  margin-bottom: 5px;
+  font-size: 3em;
+  letter-spacing: 5px;
+  font-family: "Staatliches", cursive;
+  color: whitesmoke;
+}
+
+.table-container {
+  perspective: 700px;
+}
+
+.gameTable {
+  margin: auto;
+  margin-top: 50px;
+  transform: scale3d(2, 1.4, 2) rotate3d(1, 0, 0, 30deg);
+  -webkit-transform: scale3d(2, 1.4, 2) rotate3d(1, 0, 0, 30deg);
+  box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+table.gameTable {
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+table.gameTable th {
+  border: 4px solid whitesmoke;
+}
+
+table.gameTable td {
+  text-align: center;
+  border: 4px solid whitesmoke;
+  color: whitesmoke;
+  font-family: "Staatliches", cursive;
+  font-size: 2em;
+  width: 70px;
+  height: 70px;
+  max-width: 70px;
+  min-width: 70px;
+  max-height: 70px;
+  min-height: 70px;
+  overflow: hidden;
+}
+
+.unitStorage {
+  margin: auto;
+}
+
+.unitStorage.unit {
+  margin: 16px;
+}
+
+.prepTable {
+  margin: auto;
+  box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.disabled {
+  background-color: #d3d3d3;
+}
+
+.third {
+  margin: 20px 20px;
+  display: inline-block;
+  width: 30%;
+}
+
+.Grave {
+  margin: 60px 20px;
+  display: inline-block;
+  width: 10%;
+}
+
+.Main {
+  margin: 100px 20px;
+  display: inline-block;
+  width: 60%;
+}
+
+.pushdown {
+  margin-top: 160px;
+}
+
+.left {
+  text-align: left;
+}
+
+ul,
+li {
+  color: whitesmoke;
+  text-align: justify;
+  text-decoration: none;
+  font-family: "Staatliches", cursive;
+  font-size: 1.2em;
+}
