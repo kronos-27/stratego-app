@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/statego-app/static/css/main.d3ae0000.chunk.css",
+    "main.js": "/statego-app/static/js/main.a15f9e19.chunk.js",
+    "main.js.map": "/statego-app/static/js/main.a15f9e19.chunk.js.map",
+    "runtime-main.js": "/statego-app/static/js/runtime-main.af71bc4a.js",
+    "runtime-main.js.map": "/statego-app/static/js/runtime-main.af71bc4a.js.map",
+    "static/js/2.ac8bcbef.chunk.js": "/statego-app/static/js/2.ac8bcbef.chunk.js",
+    "static/js/2.ac8bcbef.chunk.js.map": "/statego-app/static/js/2.ac8bcbef.chunk.js.map",
+    "index.html": "/statego-app/index.html",
+    "precache-manifest.c2d2e4e12327cf644162cf2c4b5f8e43.js": "/statego-app/precache-manifest.c2d2e4e12327cf644162cf2c4b5f8e43.js",
+    "service-worker.js": "/statego-app/service-worker.js",
+    "static/css/main.d3ae0000.chunk.css.map": "/statego-app/static/css/main.d3ae0000.chunk.css.map",
+    "static/js/2.ac8bcbef.chunk.js.LICENSE.txt": "/statego-app/static/js/2.ac8bcbef.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.af71bc4a.js",
+    "static/js/2.ac8bcbef.chunk.js",
+    "static/css/main.d3ae0000.chunk.css",
+    "static/js/main.a15f9e19.chunk.js"
+  ]
+}
