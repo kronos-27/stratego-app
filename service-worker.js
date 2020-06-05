@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/statego-app/precache-manifest.c2d2e4e12327cf644162cf2c4b5f8e43.js"
+  "/statego-app/precache-manifest.fd5adfe5993e8e96e17d7504c8be3040.js"
 );
 
 self.addEventListener('message', (event) => {

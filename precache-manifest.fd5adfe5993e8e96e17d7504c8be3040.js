@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cfe0d50820ba5dc2d6f6eac6eabbfe00",
+    "revision": "d1ffcb4d8353f3b474a72502c7363d3d",
     "url": "/statego-app/index.html"
   },
   {
-    "revision": "7a0816df1168cd5074de",
+    "revision": "b488fa5f90b652d62ea7",
     "url": "/statego-app/static/css/main.d3ae0000.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/statego-app/static/js/2.ac8bcbef.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7a0816df1168cd5074de",
-    "url": "/statego-app/static/js/main.a15f9e19.chunk.js"
+    "revision": "b488fa5f90b652d62ea7",
+    "url": "/statego-app/static/js/main.0e6ea702.chunk.js"
   },
   {
     "revision": "b4a38de8ff0a4752ba49",
